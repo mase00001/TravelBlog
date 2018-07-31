@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.layout {
+  display: flex;
+  height: 100vh;
+}
+.boxes {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  font-family: sans-serif;
+}
+
+.pic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: red;
+}

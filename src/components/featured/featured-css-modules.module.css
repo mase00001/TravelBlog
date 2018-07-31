@@ -1,0 +1,10 @@
+
+.layout {
+  display: flex;
+  z-index: 1;
+}
+.box {
+  width: 30%;
+  margin: auto 20%;
+  color: white;
+}

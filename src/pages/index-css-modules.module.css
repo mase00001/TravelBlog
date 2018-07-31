@@ -7,3 +7,10 @@ ul li {
   font-size: 20px;
   font-family: Roboto;
 }
+
+.scrollContain {
+  padding: 0;
+  margin: auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}

@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-.mainPic {
-  background-image: Background;
-}
+
 body {
   margin: 0;
 }
@@ -51,6 +49,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  color: grey;
 }
 abbr[title] {
   border-bottom: none;
@@ -519,6 +518,7 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+  color: inherit;
 }
 ol li {
   padding-left: 0;
@@ -628,4 +628,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.box {
+  min-height: 200px;
 }
