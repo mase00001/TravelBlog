@@ -6,6 +6,7 @@ import Header from '../components/header/header.js'
 import About from '../components/about/about.js'
 import Featured from '../components/featured/featured.js'
 
+
 import Background from '../img/pic.jpg'
 import Background2 from '../img/greece.jpg'
 
@@ -27,6 +28,7 @@ const IndexPage = ({data}) => (
   <Header back={Background2} id='feature'>
     <Featured />
   </Header>
+
 
   {/*<div style={{
     display: 'flex',

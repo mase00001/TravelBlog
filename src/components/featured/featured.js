@@ -1,4 +1,7 @@
 import React from 'react'
+import Link from 'gatsby-link'
+import CtaButton from '../ctaButton/ctaButton'
+
 import styles from './featured-css-modules.module.css'
 
 const Featured = () => (
@@ -14,6 +17,7 @@ const Featured = () => (
         summis arbitror exquisitaque, ullamco graviterque nam expetendis, aute
         praesentibus singulis illum pariatur. Minim doctrina ut illustriora.
       </p>
+      <CtaButton to='/post-one'>See Post</CtaButton>
     </div>
   </div>
 )
