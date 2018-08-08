@@ -7,7 +7,11 @@ import Menu from '../components/menu/menu.js'
 
 import './index.css'
 
-const Layout = ({ children, data }) => (
+class Layout extends React.Component {
+  render() {
+    const { data, children } = this.props
+
+  return (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
@@ -15,7 +19,7 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    /><Menu />
+    />
     <div
       style={{
       }}
@@ -23,7 +27,9 @@ const Layout = ({ children, data }) => (
       {children()}
     </div>
   </div>
-)
+  )
+  }
+}
 
 Layout.propTypes = {
   children: PropTypes.func,

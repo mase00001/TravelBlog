@@ -1,0 +1,38 @@
+
+.navMan {
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+
+.navManb {
+  position: fixed;
+  background-color: rgba(255,255,255,0.5);
+  color: black;
+  width: 100%;
+  height: 60;
+  margin: auto;
+  box-shadow: 1px 1px #EDEDED;
+  z-index: 1;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 13px;
+
+}
+
+.hello {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.hello1 {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+}

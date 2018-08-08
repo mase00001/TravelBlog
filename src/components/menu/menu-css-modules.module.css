@@ -3,7 +3,7 @@
   position: fixed;
   width: 100%;
   margin: auto;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navManb {
@@ -14,7 +14,7 @@
   height: 60;
   margin: auto;
   box-shadow: 1px 1px #EDEDED;
-  z-index: 1;
+  z-index: 2;
 }
 
 .list {
