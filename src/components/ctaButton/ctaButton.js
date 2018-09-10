@@ -24,8 +24,9 @@ const ButtonContainer = styled.div`
   color: white;
   display: inline-block;
   transition: all 0.3s ease;
+  font-family: sans-serif;
   &:hover {
-    color: black;
-    background: white;
+    border-color: #7fbc71;
+    background: #7fbc71;
   }
 `

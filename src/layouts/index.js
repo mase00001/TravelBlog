@@ -20,10 +20,8 @@ class Layout extends React.Component {
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <div
-      style={{
-      }}
-    >
+    <div>
+      <Menu />
       {children()}
     </div>
   </div>

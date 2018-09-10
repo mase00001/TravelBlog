@@ -14,6 +14,7 @@ const Header = props => (
         height: '100%',
         position: 'absolute',
         background: 'black',
+        backgroundAttachment:'fixed',
         opacity: 0.4,
       }}></div>
     </div>

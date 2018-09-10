@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './aboutcomp-css-modules.module.css'
 
-const About = () => (
+const About = (props) => (
 
   <div className={styles.layout} id='about'>
     <div className={styles.boxes}>
     <div className={[styles.box, styles.pic].join(' ')}
       style={{
-      backgroundImage: `url('http://www.bravotv.com/sites/nbcubravotv/files/styles/blog-post--mobile/public/field_blog_image/2017/03/jet-set-beauty-beast-castles-promote-02.jpg?itok=H5ltr4BV&timestamp=1488570367')`,
+      backgroundImage: `url(${props.back})`,
       }}>
     </div>
     <div className={styles.box}>

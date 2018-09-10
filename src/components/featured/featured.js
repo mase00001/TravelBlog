@@ -1,13 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import CtaButton from '../ctaButton/ctaButton'
+import styled from 'styled-components'
 
 import styles from './featured-css-modules.module.css'
 
 const Featured = () => (
   <div className={styles.layout}>
       <div className={styles.box}>
-      <h1>Feature Story</h1>
+      <FeaturedHeader>Feature Story: Greece, Creta</FeaturedHeader>
       <p>
         Senserit quid commodo. O dolor duis ex senserit. De quae possumus. Ne quorum et
         cillum.Aut malis possumus ingeniis non ad ab veniam excepteur ea si amet
@@ -23,3 +24,8 @@ const Featured = () => (
 )
 
 export default Featured
+
+const FeaturedHeader = styled.h1`
+  color: #7fbc71;
+    font-family: sans-serif;
+`

@@ -14,7 +14,6 @@ export default function Template({data}) {
     }}>
 <HeaderWrapper>
       <Img style={{
-
         left: 0,
         top: 0,
         width: '100%',
@@ -23,13 +22,10 @@ export default function Template({data}) {
         sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
     </HeaderWrapper>
     <div style={{
-      width: '60%',
+      width: '700px',
       margin: 'auto',
 
     }}>
-      <Link activeStyle={{
-        color:'black',
-      }} to="/blog">Go Back</Link>
 
       <h1>{post.frontmatter.title}</h1>
       <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
@@ -50,7 +46,7 @@ export const postQuery = graphql`
         date
         featuredImage {
           childImageSharp {
-            sizes(maxWidth:2000) {
+            sizes(maxWidth:4000) {
               ...GatsbyImageSharpSizes
             }
       }

@@ -8,3 +8,7 @@
   margin: auto 20%;
   color: white;
 }
+
+.box p {
+  font-family: sans-serif;
+}

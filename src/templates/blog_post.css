@@ -1,7 +1,10 @@
-h1 {
-  font-family: serif;
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-p {
-  font-family: sans-serif;
+.small {
+  width: 340px;
+  display: inline-block;
 }
