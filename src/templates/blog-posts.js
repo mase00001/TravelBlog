@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
+import Menu from '../components/menu/menu.js'
 
 import './blog_post.css'
 
@@ -13,6 +14,7 @@ export default function Template({data}) {
       maxWidth: '2000px',
     }}>
 <HeaderWrapper>
+      <Menu />
       <Img style={{
         left: 0,
         top: 0,

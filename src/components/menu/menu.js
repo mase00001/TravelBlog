@@ -27,11 +27,11 @@ class Menu extends React.Component {
           <Link className={this.state.isTop ? styles.hello1 : styles.hello} to="/">
             <Cont><Avatar /><Mini>San <span style={{color:'#6695e2'}}>`N</span> Dan</Mini></Cont>
           </Link>
-        {/*<ul className={styles.list}>
-          <List><Link className={this.state.isTop ? styles.hello1 : styles.hello} to="/">Home</Link></List>
-          <List><Link className={this.state.isTop ? styles.hello1 : styles.hello} to="/about">About</Link></List>
+        <ul className={styles.list}>
+        {/*}  <List><Link className={this.state.isTop ? styles.hello1 : styles.hello} to="/">Home</Link></List>
+          <List><Link className={this.state.isTop ? styles.hello1 : styles.hello} to="/about">About</Link></List>*/}
           <List><Link className={this.state.isTop ? styles.hello1 : styles.hello} to="/contact">Contact</Link></List>
-      </ul>*/}
+      </ul>
       </div>
     )
   }

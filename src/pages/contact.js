@@ -16,13 +16,13 @@ const Contact = () => (
       data-netlify="true"
       date-netlify-honeypot="bot-field"
     >
-      <label>Name:</label><br />
+      <Label>Name:</Label><br />
       <input name="name" className={styles.control} />
       <br />
-      <label>Email:</label><br />
+      <Label>Email:</Label><br />
       <input name="email" className={styles.control} />
       <br />
-      <label>Message:</label><br />
+      <Label>Message:</Label><br />
       <textarea name="message" className={styles.control} rows='5' />
     </ContactForm>
     <Send>Send</Send>
@@ -35,6 +35,10 @@ export default Contact
 const ContactForm = styled.form`
   transition: all 4s ease-in-out;
   margin:0;
+`
+
+const Label = styled.label`
+  color: rgba(0,0,0,.5);
 `
 
 const Send = styled.button`
@@ -55,4 +59,5 @@ const Container = styled.div`
   padding-top: 120px;
   height: 100vh;
   width: 50%;
+  font-family: Trebuchet MS,sans-serif;
 `
