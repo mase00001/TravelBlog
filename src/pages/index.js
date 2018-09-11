@@ -14,8 +14,8 @@ import BlogPage from './blog.js'
 
 import Background from '../img/pic2.jpg'
 import Background2 from '../img/greece.jpg'
-import { GoCalendar } from 'react-icons/go'
-import { FaUser } from 'react-icons/fa'
+import GoCalendar from 'react-icons/lib/go/calendar'
+import FaUser from 'react-icons/lib/fa/user'
 
 const IndexPage = ({data}) => (
 <div>
