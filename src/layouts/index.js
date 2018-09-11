@@ -21,7 +21,6 @@ class Layout extends React.Component {
       ]}
     />
     <div>
-      <Menu />
       {children()}
     </div>
   </div>

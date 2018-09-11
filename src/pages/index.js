@@ -21,6 +21,7 @@ const IndexPage = ({data}) => (
 <div>
 
   <Header back={Background}>
+  <Menu />
     <Wrapper>
       <Small>Follow the travels of:</Small>
       <Title>San <Word>`N</Word> Dan</Title>

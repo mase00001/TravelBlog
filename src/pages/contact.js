@@ -3,7 +3,11 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import styles from './contact-css-modules.module.css'
 
+import Menu1 from '../components/menu_blog/menu_blog.js'
+
 const Contact = () => (
+<div>
+  <Menu1 />
   <Container>
     <h1>Contact</h1>
     <ContactForm
@@ -21,21 +25,34 @@ const Contact = () => (
       <label>Message:</label><br />
       <textarea name="message" className={styles.control} rows='5' />
     </ContactForm>
-    <br />
-    <button>Send</button>
+    <Send>Send</Send>
   </Container>
+  </div>
 )
 
 export default Contact
 
 const ContactForm = styled.form`
   transition: all 4s ease-in-out;
+  margin:0;
 `
 
+const Send = styled.button`
+  background-color: #6695e2;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px 15px;
+  transition: all 0.5s ease;
+  &:hover {
+    opacity: 0.8;
+  }
+`
 const Container = styled.div`
-  padding-top: 80px;
+  margin:auto;
+  padding-top: 120px;
   height: 100vh;
-  margin: 0 auto;
-  max-width: 60%;
-
+  width: 50%;
 `
