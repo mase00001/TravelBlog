@@ -24,8 +24,9 @@ const Contact = () => (
       <br />
       <Label>Message:</Label><br />
       <textarea name="message" className={styles.control} rows='5' />
+      <Send>Send</Send>
     </ContactForm>
-    <Send>Send</Send>
+
   </Container>
   </div>
 )

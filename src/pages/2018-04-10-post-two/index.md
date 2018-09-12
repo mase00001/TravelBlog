@@ -10,7 +10,7 @@ Creta embodies all things great about Greece, beautiful beaches with crystal cle
 
 
 
-###1. Chania
+#1. Chania
 
 This is one of the two main cities on the island located on the North side and is where we flew into to begin our adventure. Chania has a relaxed vibe and makes for a good place to base yourself as you explore the island. First thing I would recommend doing is walking along the Old Vanetian Port of Chania. Built initially in the 14th century to protect against pirate raids, it is now the heart of Chania providing many bars, restaurants and shops along with very nice views.
 
