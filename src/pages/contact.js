@@ -10,15 +10,23 @@ const Contact = () => (
   <Menu1 />
   <Container>
     <h1>Contact</h1>
-    <form
-        name="contact-form"
-        method="post"
-        data-netlify="true"
-      >
-        <input type="hidden" name="form-name" value="contact" />
-        <input type="text" placeholder="name" name="name"/>
-        <button>Send</button>
-    </form>
+    <ContactForm
+      name="contact"
+      method="post"
+      data-netlify="true"
+      date-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <Label>Name:</Label><br />
+      <input name="name" className={styles.control} type="text" />
+      <br />
+      <Label>Email:</Label><br />
+      <input name="email" className={styles.control} type="email"/>
+      <br />
+      <Label>Message:</Label><br />
+      <textarea name="message" className={styles.control} rows='5' />
+      <Send>Send</Send>
+    </ContactForm>
 
   </Container>
   </div>
