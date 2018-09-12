@@ -17,10 +17,10 @@ const Contact = () => (
       date-netlify-honeypot="bot-field"
     >
       <Label>Name:</Label><br />
-      <input name="name" className={styles.control} />
+      <input name="name" className={styles.control} type="text" />
       <br />
       <Label>Email:</Label><br />
-      <input name="email" className={styles.control} />
+      <input name="email" className={styles.control} type="email"/>
       <br />
       <Label>Message:</Label><br />
       <textarea name="message" className={styles.control} rows='5' />
