@@ -57,6 +57,7 @@ const IndexPage = ({data}) => (
   </Container>
 
 
+
 </div>
 
 )
@@ -165,6 +166,7 @@ const Bucket = styled.div`
 
   &:before {
     position: absolute;
+    left: 50px;
     height: 0px;
     bottom: -20px;
     transition: all 0.8s ease;
