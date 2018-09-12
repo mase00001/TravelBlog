@@ -15,6 +15,7 @@ const Contact = () => (
         method="post"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <input type="text" placeholder="name" name="name"/>
         <button>Send</button>
     </form>
