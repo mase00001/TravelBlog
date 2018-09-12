@@ -30,7 +30,7 @@ export default function Template({data}) {
     }}>
 
       <h1>{post.frontmatter.title}</h1>
-      <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
+      <Description>Posted by {post.frontmatter.author} on {post.frontmatter.date}</Description>
       <div dangerouslySetInnerHTML = {{ __html: post.html }} />
     </div>
     </div>
@@ -62,3 +62,8 @@ const HeaderWrapper = styled.div`
     height: 60vh;
     overflow: hidden;
   `
+
+const Description = styled.h4`
+  font-family: Roboto;
+  opacity: 0.7;
+`

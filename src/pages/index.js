@@ -196,7 +196,7 @@ const Zoom = styled.div`
 `
 
 const Description = styled.div`
-  width: 100%;
+  width: 95%;
   margin-left: 20px;
 `
 

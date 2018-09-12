@@ -47,7 +47,7 @@ const Mini = styled.p`
 
   margin: auto;
   font-size: 22px;
-
+  font-family: "Trebuchet MS", sans-serif;
 `
 
 const List = styled.li`

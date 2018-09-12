@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .wrap {
   width: 100%;
   display: flex;
@@ -7,6 +9,10 @@
 .small {
   width: 340px;
   display: inline-block;
+}
+
+p {
+  font-family: Roboto;
 }
 
 h3 {

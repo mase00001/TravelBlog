@@ -61,13 +61,29 @@ const Cont = styled.div`
 `
 
 const Mini = styled.p`
-
   margin: auto;
   font-size: 22px;
-
+  font-family: "Trebuchet MS";
 `
 
 const List = styled.li`
-  padding-right: 20px;
+
   margin-bottom: 0px;
+
+  &:before {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+    content: "";
+    border-bottom: solid 2px #6695e2;
+    transition: all 0.3s ease;
+    transform: scaleX(0);
+  }
+
+  &:hover:before {
+    transform: scaleX(1);
+  }
+
 `

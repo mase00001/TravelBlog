@@ -10,13 +10,13 @@ Creta embodies all things great about Greece, beautiful beaches with crystal cle
 
 
 
-###1. Chania
+###Chania - The Beginning
 
 This is one of the two main cities on the island located on the North side and is where we flew into to begin our adventure. Chania has a relaxed vibe and makes for a good place to base yourself as you explore the island. First thing I would recommend doing is walking along the Old Vanetian Port of Chania. Built initially in the 14th century to protect against pirate raids, it is now the heart of Chania providing many bars, restaurants and shops along with very nice views.
 
 ![](/images/chania.jpg)
 
-###2. Samarian Gorge
+###Samarian Gorge - Touristy for a good reason
 
 The Samarian Gorge is the most well known gorge to visit on Crete and one of the main tourist attractions on the island with good reason. The spectacular views at the very beginning along with hiking through the gorge itself, where side rock walls can reach as high as 300m, makes for unforgettable experience.
 
@@ -26,13 +26,13 @@ To get there, we started in Chania and drove to the beginning of the trail which
 
 ![](/images/ferry_view.jpg)
 
-###3. Elafonisi Beach
+###Elafonisi Beach - Crystal clear water
 
 One of the more beautiful beaches you will come across with aqua blue water and nice spots to relax. When you first arrive, the main area of the beach is generally very packed especially on a hot summers day, but walk a bit further over some dunes and you will come across a much quieter area to settle and enjoy the sun.
 
 ![](/images/elafonisi-beach.jpg)
 
-###4. Sougia to Hora Sfakion Hike
+###Sougia to Hora Sfakion Hike - Highlight of the trip
 
 This hike goes along the south side coastline of Creta. We solved the problem of transport by firstly driving to Hora Sfakion where the hike will end and then catching the ferry to Sougia and hiking back from where we came. The hike is 20km in total and took us roughly 8 hours so make sure you get a ferry early in the morning to allow enough time to complete the walk. Many sign posts mark the trail as well so it is hard to get lost.
 
@@ -49,7 +49,7 @@ Loutro is a very picturesque town you will encounter along the way is not access
 
 ![](/images/mountain_stairs.jpg)
 
-###5. Anopoli and Aradena Gorge
+###Anopoli and Aradena Gorge -
 
 After spending 5 nights in Chania, we drove to Anopoli, a small quiet village approximately a 10 minute drive inland from Horo Sfakion. Great place to stay if you want to get away from the busy cities. The locals were also very friendly and gave us some tips on what to do around the area. This lead us to attempting the Aradena Gorge walk, which in the opinion of many is just as good as the Samarian Gorge walk without the mass flood of tourists. The gorge will lead down to the coast and finish at Marmara beach where we chilled for a couple hours before heading back.
 
@@ -68,7 +68,7 @@ On the return walk we decided to take the ladder path back instead of the overpa
 <div class="wrap"><div class="small"><img src="/images/ladder.jpg" /></div><div class="small"><img src="/images/ladder_close.jpg" /></div></div>
 <br />
 
-###6. Agios Nikolas
+###Agios Nikolas - Perfect scenery and delicious food
 
 From Anopoli we decided to head more east and make our way to Agios Nikoaos, another very pretty coastal town of Greece. In the center there is a small port lined with restaurants and bars and a large hill which overlooks the whole village. We had dinner at a restaurant called Gioma Meze atop of the hill which made for a nice night out. If you're into ancient ruins then it might be worth taking a trip up to Spinalonga Fortress located only 30 minute drive away. We also did scuba diving through a local scuba outlet who were very friendly and took us out by boat to a good spot filled with many fish.
 
@@ -76,7 +76,7 @@ From Anopoli we decided to head more east and make our way to Agios Nikoaos, ano
 
 ![](/images/agios_hotel_view.jpg)
 
-###7. Syvritos
+###Syvritos - In the valley amongst mountains
 
 Our last destination before returning home was a small village called Syvritos which is located in the center of Crete in a beautiful valley. Surrounded my mountains including the largest one called Mount Ida, this really is a beautiful place to stay during the summer months. If you're after a quiet a relaxing place with incredible landscape then this area is a must. On top of that, there are many hikes to be done, including hiking to the top of Mount Ida which is easily accessible from Syvritos.
 Unfortunately we were only staying a night and so ran out of time to complete this but it would be worth doing on a clear day.
