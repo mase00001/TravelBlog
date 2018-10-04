@@ -186,7 +186,7 @@ const Bucket = styled.div`
 const Image = styled.div`
   border-radius: 10px;
   overflow: hidden;
-  width: 700px;
+  width: 100%;
   height: 320px;
 `
 const Zoom = styled.div`
