@@ -8,15 +8,7 @@ const Header = props => (
     style={{
       backgroundImage: `url(${props.back})`,
     }}
-  >{props.children}<div
-    style={{
-        width: '100%',
-        height: '100%',
-        position: 'absolute',
-        background: 'black',
-        backgroundAttachment:'fixed',
-        opacity: 0.4,
-      }}></div>
+  >{props.children}<div className={styles.overlay}></div>
     </div>
 )
 
