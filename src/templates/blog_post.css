@@ -7,7 +7,7 @@
 }
 
 .small {
-  width: 340px;
+  width: 47.5%;
   display: inline-block;
 }
 
@@ -17,4 +17,32 @@ p {
 
 h3 {
   color: #6695e2;
+}
+
+
+.header-wrapper {
+  height: 600px;
+  overflow: hidden;
+}
+
+.container-content {
+  width: 700px;
+  margin: auto;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .header-wrapper {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header-wrapper {
+    height: 200px;
+  }
+  .container-content {
+    width: 300px;
+  }
 }

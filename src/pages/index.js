@@ -6,14 +6,10 @@ import styled from 'styled-components'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Header from '../components/header/header.js'
-import About from '../components/about/about.js'
-import Featured from '../components/featured/featured.js'
+
 import Menu from '../components/menu/menu.js'
 
-import BlogPage from './blog.js'
-
 import Background from '../img/pic2.jpg'
-import Background2 from '../img/greece.jpg'
 import GoCalendar from 'react-icons/lib/go/calendar'
 import FaUser from 'react-icons/lib/fa/user'
 
@@ -101,6 +97,10 @@ const Title = styled.h1`
   font-family: "Trebuchet MS", sans-serif;
   color: white;
   font-size: 80px;
+  
+  @media only screen and (max-width: 700px) {
+    font-size: 50px;
+  }
 `
 
 const BlogTitle = styled.h1`
@@ -110,6 +110,9 @@ const BlogTitle = styled.h1`
   &:hover {
     font-weight: bold;
   }
+  @media only screen and (max-width: 700px) {
+    font-size: 25px;
+    }
 `
 
 const Wrapper = styled.div`
@@ -122,6 +125,9 @@ const Wrapper = styled.div`
 const Word = styled.span`
   font-size: 80px;
   color: #6695e2;
+  @media only screen and (max-width: 700px) {
+    font-size: 50px;
+  }
 `
 
 const DateTitle = styled.span`
@@ -181,6 +187,15 @@ const Bucket = styled.div`
       transform: translateY(10px);
       transition: all 0.3s ease;
   }
+
+  @media only screen and (max-width: 700px) {
+    width: 350px;
+
+    &:before {
+      width: 300px;
+      left: 25px;
+    }
+    }
 `
 
 const Image = styled.div`
@@ -188,6 +203,9 @@ const Image = styled.div`
   overflow: hidden;
   width: 100%;
   height: 320px;
+  @media only screen and (max-width: 700px) {
+    height: 170px;
+    }
 `
 const Zoom = styled.div`
   height: 100%;

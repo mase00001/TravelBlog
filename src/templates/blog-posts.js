@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import Menu from '../components/menu/menu.js'
@@ -8,11 +7,9 @@ import './blog_post.css'
 
 export default function Template({data}) {
   const post = data.markdownRemark
-  return (<div style={{
-      margin: '0 auto',
-      maxWidth: '2000px'
-    }}>
-    <HeaderWrapper>
+  return (
+    <div>
+    <div className="header-wrapper">
       <Menu/>
       <Img style={{
           left: 0,
@@ -20,15 +17,11 @@ export default function Template({data}) {
           width: '100%',
           height: '100%'
         }} sizes={post.frontmatter.featuredImage.childImageSharp.sizes}/>
-    </HeaderWrapper>
-    <div style={{
-        width: '700px',
-        margin: 'auto'
-      }}>
+    </div>
+    <div className="container-content">
 
       <h1>{post.frontmatter.title}</h1>
-      <Description>Posted by {post.frontmatter.author}
-        on {post.frontmatter.date}</Description>
+      <Description>Posted by {post.frontmatter.author} on {post.frontmatter.date}</Description>
       <div dangerouslySetInnerHTML={{
           __html: post.html
         }}/>
@@ -58,8 +51,9 @@ export const postQuery = graphql `
 `
 
 const HeaderWrapper = styled.div `
-    height: 60vh;
+    height: 600px;
     overflow: hidden;
+    
   `
 
 const Description = styled.h4 `
