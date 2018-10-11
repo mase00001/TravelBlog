@@ -116,7 +116,7 @@ const BlogTitle = styled.h1`
 `
 
 const Wrapper = styled.div`
-  margin: 300px auto;
+  margin: auto;
   z-index: 1;
   color: white;
 
