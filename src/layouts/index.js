@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import icon32 from '../img/favicon-32x32.png'
-import Menu from '../components/menu/menu.js'
+
 
 import './index.css'
 
