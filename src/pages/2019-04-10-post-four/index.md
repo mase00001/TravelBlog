@@ -61,6 +61,5 @@ Parts of this beautiful coastal track can only be walked when it’s low tide (e
 <br />
 
 As you can imagine the first meal after the ‘Abel raw food track’ tasted like the most delicious tapas meal ever! 
-89-90
 <div class="wrap"><div class="small"><img src="/images/90.jpg" /></div><div class="small"><img src="/images/89.jpg" /></div></div>
 <br />
